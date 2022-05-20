@@ -9,6 +9,8 @@ import Home from 'pages/Home';
 import NotFound from 'pages/NotFound';
 import Widget from 'pages/Widget';
 
+console.log(window)
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
